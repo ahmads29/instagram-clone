@@ -1,0 +1,187 @@
+body{
+    margin-left: 250px;
+    margin-right: 450px;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Style the navbar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 100%;
+    background-color: #000000;
+    border-right: 1px solid gray;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px;
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav h1{
+    padding-left: 20px;
+}
+
+
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+}
+svg{
+    width: 20px;
+    margin-right: 13px;
+}
+.shark_insta-logo{
+    width: 100px;
+    padding: 30px;
+    filter: invert(100%);
+}
+li:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+
+
+/* right navbar css start */
+.shark_personal_prof{
+    display:flex;
+    gap: 10px;
+}
+.shark_personal_prof img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-top: 16px;
+}
+.shark_suggest{
+    display: flex;
+    gap: 70px;
+}
+span{
+    font-size: 10px;
+    color: rgb(165, 165, 165);
+}
+.shark_follow{
+    color: rgb(0, 132, 255);
+    font-size: 12px;
+}
+.shark_suggest-profs{
+    display: flex;
+    gap: 70px;
+}
+.ppp{
+    color: grey;
+    font-size: 10px;
+}
+.shark_right-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px; 
+    height: 100%;
+    background-color: #000000;
+    /* border-left: 1px solid gray; */
+    font-size: 18px;
+    margin-left: 50px;
+}
+/* right navbar css end */
+
+.shark_story-img img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+.shark_story-img{
+    background: linear-gradient(to top, rgb(255, 187, 0), transparent), /* Top gradient */
+    linear-gradient(to bottom, rgb(163, 0, 212), transparent);
+    padding: 3px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.shark_story{
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.shark_story p{
+    margin-left: 4px;
+    font-size: 14px;
+}
+.shark_stories-nav{
+    display: flex;
+    gap: 20px;
+}
+/* right navbar css end */
+
+/* posts div css start */
+.shark_posts-container{
+    margin:0 90px;
+}
+.shark_acc-details{
+    display: flex;
+}
+.shark_post-img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.shark_post-name{
+    display: flex;
+    gap: 20px;
+}
+.date_p{
+    color: grey;
+    margin-right: 410px;
+}
+.shark_image-post{
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.sharkeko{
+    margin-left:465px ;
+}
+.shark_caption p{
+    padding: 0px;
+    margin: 0px;
+}
+.shark_add-cmnt svg{
+    width: 12px;
+}
+.shark_add-cmnt{
+    width: 600px;
+    display: flex;
+    gap: 451px;
+    border-bottom: 1px solid grey;
+}
+.shark_post{
+    margin-top:70px;
+}
+.shark_posts-container{
+    margin: 70 auto;
+}
+/* posts div css end */
